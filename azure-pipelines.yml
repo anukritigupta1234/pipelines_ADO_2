@@ -1,0 +1,21 @@
+
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+resources:
+ containers:
+   - container: c1
+     endpoint: DockerHubConnection
+     image: amjadocker/dockercontainerrepository1111
+      
+
+trigger:
+- master
+
+pool: default
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
