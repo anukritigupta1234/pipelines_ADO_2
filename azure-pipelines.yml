@@ -7,8 +7,9 @@
 resources:
  containers:
    - container: c1
-     endpoint: DockerHubConnection
-     image: amjadocker/dockercontainerrepository1111
+     endpoint: DockerHub
+     image: anugupt/DockerHubRepo_1
+     trigger: true
       
 
 trigger:
