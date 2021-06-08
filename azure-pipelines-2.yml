@@ -8,10 +8,11 @@ resources:
   containers:
   - container: ACRResourceLatest
     type: ACR
-    azureSubscription: ARM_Manual
-    resourceGroup: anumitaReg
-    registry: abhisheaAcr
-    repository: acrcontainerrepository1111
+    azureSubscription: arm_auto
+    resourceGroup: anugupt
+    registry: anugupttestacr
+    repository: acrrepo
+    trigger: true
       
 
 trigger:
